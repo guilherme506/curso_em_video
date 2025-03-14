@@ -7,7 +7,8 @@ f =str(input('Qual é o seu nome completo? '))
  
 #f.lower(n)  colocar tudo em minusculo
 
-#analise = len(f) analise a frase
+#analise = len(f) 
+#analise = f.split
 #f.stip(n) remover os espaços inuteis 
 
 # f.split(n) vai separar cada palavra
