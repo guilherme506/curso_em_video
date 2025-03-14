@@ -11,23 +11,52 @@
 
 # BIBLIOTECAS CTL + SPACE(descobrir bibliotecas)
 
-#  
+#frase: curso em video
+
+#  fatiamento: frase[alguma numero]/ 
+# [9:13]exclui o 13/ 
+# [9:14:2] vai pulando de dois em dois 
+# [:5]vai do inicio ate o 
+# 4/ [15 :]vai do 15 ate o final
 # 
+#  analise: len(frase):qual e o cumprimento da frease
+#  frase.count('o') vai contar quantos o existe na frase 
+# tem como usar o fatiamento: ('o',0,13) vai de 0 ao 12 procurando O
+
+#  frase.find("deo") indica aonde que entrou o deo 
+
+# frase.find("android")  retorna valor negativo nao existe na string
+# "curso" in frase : dentro da frase existe a palavra curso(true or not)
+
+# frase = frase.replace("python","android") substitui a palavra python pela android
+
+# frase.upper(): upper e um metodo, coloca as letras minusculas em maiuscula
 # 
+# frase.lower(): coloca as letras maiusculas em minusculas
 # 
-#  
+# frase.capitalize: coloca todas os caracteres em minusculo é so a letra inicial em maiuscula 
 # 
+# farse.title: vai analisar quantas palavras tem a frase, dai vai fazer o capitalize em cada inicio de palavra na frase
 # 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
+# frase:     aprenda pyton    
+#
+#frase.stip: vai remover os espaços inuteis
+#frase.rstrip: vai remover apenas os ultimos espaços
+#frase.lstrip: vai remover os espaços da esquerda
+#
+#frase: curso em video
+
+#frase.split(): vai ocorrer uma divisão de acordo com os espaços da frase(cria uma lista com cada palavra)
+# "-".join(frase) vai juntar as palavras com -
+#
+#""" tres aspas para texto"
+#
+#
+#
+#
+#
+#
+#
+#
+#
 #
