@@ -13,3 +13,4 @@ f =str(input('Qual é o seu nome completo? '))
 
 # f.split(n) vai separar cada palavra
 print(f'O seu nome com todo minusculo fica {f.lower()}')
+print(f.split().stip()) 
