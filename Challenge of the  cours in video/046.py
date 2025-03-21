@@ -4,8 +4,7 @@
 #
 #
 from time import sleep
-from moviepy import
-for c in range (10,0,-1):
-    print(c),sleep(2)
-print('fim')
-    
+
+for c in range(10, 0, -1):
+    print(c), sleep(1)
+print("fim")
