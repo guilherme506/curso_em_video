@@ -6,4 +6,4 @@ n1 = int(input("primeiro termo: "))
 n2 = int(input("razão da PA: "))
 pro = n1 + (11 - 1) * n2
 for c in range(n1, pro, n2):
-    print(end=f',{c}, ')
+    print(end=f",{c}, ")

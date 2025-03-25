@@ -2,10 +2,16 @@
 # e diga se ele é ou não um numero primo
 #
 n = int(input("digite um numero: "))
-if n / n == 0:
-    if n / 2 =:
-        ("Não e primo")
-    elif n / 3 != 0:
-        print("Não e primo")
+tot = 0
+for c in range(1, n + 1):
+    if n % c == 0:
+        print("\033[33m", end= ' ' )
+        tot += 1
+    else:
+        print("\033[31m", end= ' ' )
+    print(f"{c}", end= ' ' )
+print(f"\n\033[O numero {n} foi divísivel {tot} vezes")
+if tot == 2:
+    print("ele e primo")
 else:
-    print("seu numero e primo")
+    print("ele não e primo")
