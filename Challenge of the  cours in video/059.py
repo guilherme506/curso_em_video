@@ -16,21 +16,21 @@ while opçao != 5:
          [4] - Novos números
          [5] - Sair do Programa
          """)
-    opçao = int(input('Qual é a sua opção: '))
+    opçao = int(input("Qual é a sua opção: "))
     if opçao == 1:
         print(f"A soma do valor {n1} e {n2} é {n1 + n2}")
     elif opçao == 2:
         print(f"A multiplicação de {n1} e {n2} é {n1 * n2}")
     elif opçao == 3:
-        if n1>n2:
+        if n1 > n2:
             print(f"O maior valor é {n1}")
         else:
-            print(f'O maior valor é {n2}')
+            print(f"O maior valor é {n2}")
     elif opçao == 4:
         n1 = int(input("Escolha um número: "))
         n2 = int(input("Escolha outro número: "))
     elif opçao == 5:
-        print('fim do programa')
+        print("fim do programa")
     elif opçao > 5:
-        print('não tem essa opção, tente novamente')
-    print('=-=' * 10)
+        print("não tem essa opção, tente novamente")
+    print("=-=" * 10)
