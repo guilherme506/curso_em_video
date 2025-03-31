@@ -1,8 +1,8 @@
-#Faça um programa que leia a
+# Faça um programa que leia a
 # algo pelo teclado e mostre na tela
- # seu tipo primitivo e todas as possiveis informaçoes sobre ela
+# seu tipo primitivo e todas as possiveis informaçoes sobre ela
 
-n = input('digite algo: ')
+n = input("digite algo: ")
 print(type(n))
 print(n.capitalize())
 print(n.casefold())

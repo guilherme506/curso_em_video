@@ -18,12 +18,12 @@ for pess in range(1, 5):
         idade_homem = idade
         nome_homem = nome
     if genero in "masc" and idade > idade_homem:
-            idade_homem = idade
-            nome_homem = nome
+        idade_homem = idade
+        nome_homem = nome
 
-    if genero in 'fem' and idade < 20:
+    if genero in "fem" and idade < 20:
         mulher += 1
-media = somaidade/4
+media = somaidade / 4
 print(f"A média da idade do grupo é {media}")
 print(f"O nome do homem mais velho é {nome_homem} com a idade de {idade_homem} anos")
 print(f"A quantidade de mulher com menos de 20 anos são {mulher}")
