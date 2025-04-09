@@ -13,7 +13,7 @@
 #  analise: len(frase):qual e o cumprimento da frease
 #  frase.count('o') vai contar quantos o existe na frase
 # tem como usar o fatiamento: ('o',0,13) vai de 0 ao 12 procurando O
-
+# Sort - ordenar as coisas
 #  frase.find("deo") indica aonde que entrou o deo
 
 # frase.find("android")  retorna valor negativo nao existe na string
@@ -40,6 +40,7 @@
 # frase.split(): vai ocorrer uma divisão de acordo com os espaços da frase(cria uma lista com cada palavra)
 # "-".join(frase) vai juntar as palavras com -
 #
+#
 # """ tres aspas para texto"
 # 0--------------------------------------------------------------------------------------------------------------------------------------------------------------0
 # utilização de if
@@ -57,5 +58,20 @@
 #
 # Tuplas
 # tuplas são imutaveis
+#
+#listas 
+# abrir a lista oppend()
+# inserir algo insert(posição e iten)
+# deletar iten del[posição], pop[geralmente a ultima posição, mas pode ser usado pra especificar a posição], remove(itens)
+# 
+#
+#
+#
+#
+#
+#
+#
+#
+#
 #
 #

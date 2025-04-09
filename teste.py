@@ -1,19 +1,9 @@
-#lanche = ("hamburgue", "Suco", "Pizza", "Pudim")
-#
-#print(sorted(lanche))#Colocou em ordem
-#
-#for cont in range(0, len(lanche)):
-#    print(f"Eu vou comer {lanche[cont]}")
-#
-#for comida in lanche:
-#    print(f"Eu vou comer {comida}")
-#
-#for pos, comida in enumerate(lanche):
-#   print(f"Eu vou comer {comida}, da posição {pos} ")
-#print("comi pra caramba!")#
-#
-a = (5, 6, 8)
-b = (5, 9, 2, 1)
-c = b + a
-del(c)
-print(sorted())
+valores = []
+for cont in range(0, 4):
+    valores.append(int(input('Digite um número: ')))
+
+for c, v in enumerate(valores):
+    print(f'Na posição {c}, se escontra o valor {v}!')
+print('Chegamos no final da lista')
+b = valores[:]#cria uma copia de valores dentro do b 
+b[2] = 8
