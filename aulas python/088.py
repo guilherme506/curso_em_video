@@ -2,6 +2,7 @@
 # O programa vai perguntar quantos jogos serão gerados e vai sortear 6 números entre 1 a 60 para cada jogo, cadastrando tudo em uma lista composta.
 from random import randint
 from time import sleep
+
 lista = list()
 jogos = list()
 print("-=-" * 30)
@@ -26,4 +27,4 @@ print("-=-" * 3, f"Sorteando {quant} jogos", "-=-" * 3)
 for i, l in enumerate(jogos):
     print(f"Jogo {i + 1}:{l}")
     sleep(1)
-print('-=-' * 5, '<Boa sorte!>', '-=-' * 5)
+print("-=-" * 5, "<Boa sorte!>", "-=-" * 5)
