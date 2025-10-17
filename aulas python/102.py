@@ -1,2 +1,6 @@
 # Crie um programa que tenha uma função fatorial() que receba dois parâmetros: o primeiro que indica o número a calcular e o outro chamdado show.
 # Que será um valor lógico(opcional) indicando se será mostrado ou não na tela o processo de cálculo do fatorial
+
+def factorial(n, show):
+    if show == True:
+        return 
